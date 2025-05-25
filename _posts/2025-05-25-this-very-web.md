@@ -3,6 +3,7 @@ title: Creating My Personal Website with Jekyll
 date: 2025-05-25
 layout: post
 categories: jekyll web dev
+tags: [jekyll, blog, minimalism, github]
 ---
 
 # Creating My Personal Website with Jekyll

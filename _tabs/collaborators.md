@@ -1,7 +1,8 @@
 ---
 title: Collaborators
-icon: users
 permalink: /collaborators/
+layout: page
+icon: fas fa-users
 order: 3
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Curriculum Vitae
-icon: address-card
 permalink: /cv/
+layout: page
+icon: fas fa-address-card
 order: 2
 ---
 

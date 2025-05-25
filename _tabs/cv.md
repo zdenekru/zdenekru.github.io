@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Curriculum Vitae
-icon: fas fa-address-card
+icon: address-card
 permalink: /cv/
 ---
 

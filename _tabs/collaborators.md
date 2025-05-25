@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Collaborators
-icon: fas fa-users
+icon: users
 permalink: /collaborators/
 ---
 

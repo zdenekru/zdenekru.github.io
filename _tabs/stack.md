@@ -19,7 +19,7 @@ order: 4
 | 🧾 PCB Design               | KiCAD, CircuitMaker (possibly Altium)      |
 | 🔌 Microcontrollers / ICs   | ESP32, STM32, ATMega324                    |
 | 🖥️ Operating Systems        | Win10/11, Linux Debian, Linux RHEL/Fedora  |
-| 🧑‍💻 Dev Environments         | VS Code, PlatformIO, ArduinoIDE, STM32Cube |
+| 🧑‍💻 Dev Environments         | VS Code, PlatformIO                        |
 | 💻 Scripting / CLI          | Bash, PowerShell                           |
 | 📊 Monitoring / Logging     | Wireshark, htop, Grafana                   |
 | 🧪 Simulation               | LTSpice                                    |

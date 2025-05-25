@@ -1,6 +1,6 @@
 ---
 title: Collaborators
-icon: users
+icon: fa-users
 order: 3
 ---
 

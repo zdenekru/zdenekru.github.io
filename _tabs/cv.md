@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-icon: id-card
+icon: address-card
 order: 2
 ---
 

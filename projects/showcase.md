@@ -8,5 +8,5 @@ permalink: /projects/showcase/
 
 A selection of completed or polished projects I’m proud of.
 
-- **Smart Home Dashboard** – Custom UI with ESP32 + Grafana
-- **PCB CNC Tool Changer** – Fusion 360 + KiCAD + ESP32
+- **Smart Home Dashboard** – Custom UI with ESP32, Home Automation and Zigbee
+- **Autoklav** – Unipi/Mervis PLC based industrial control system for sterilization process

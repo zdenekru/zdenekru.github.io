@@ -8,5 +8,5 @@ permalink: /projects/wip/
 
 Things I’m currently building, testing, or experimenting with.
 
-- **Modular PSU** – KiCAD + STM32 based bench power supply
-- **Industrial I/O** – PLC IO expansion module using STM32
+- **ESP32 Weather Station** – KiCAD + ESP32 based weather station with IoT connectivity
+- **Tool & battery pocket for potato gun** – Fusion360 designed pocket holder for potato guns

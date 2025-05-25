@@ -10,7 +10,8 @@ order: 2
 
 ### Brno University of Technology  
 *Faculty of Electrical Engineering and Communication*  
-**Field:** Electrical, Electronics and Communications Engineering  
+**Field:** Electrical, Electronics and Communications Engineering 
+**Bachelors thesis:** Digitally Controlled Variable Frequency Filter
 *2004 – 2008 (no degree)*
 
 ---
@@ -34,8 +35,8 @@ order: 2
 ### Activair  
 **R&D Engineer**  
 📍 Brno, Czech Republic · *Apr 2024 – Apr 2025*
-- PLC programming
-- Single-use device design
+- PLC programming (Unipi/Mervis, Wago/Codesys)
+- Single-use device design, Ultra-High Vacuum (UHV)
 - Development of electrotechnical devices
 
 ---

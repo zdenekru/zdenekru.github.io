@@ -1,0 +1,19 @@
+
+---
+
+## 🔧 4. `_config.yml`
+
+title: My Self-Presentation and Tech Blog
+description: Experiments, notes, and projects
+baseurl: "" # keep empty for root repo
+url: "https://zdenekru.github.io"
+theme: minima
+
+# If using a custom layout:
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Optional navigation
+header_pages:
+  - about.md

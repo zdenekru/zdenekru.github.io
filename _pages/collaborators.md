@@ -1,7 +1,8 @@
 ---
+layout: page
 title: Collaborators
-icon: fa-users
-order: 3
+icon: fas fa-users
+permalink: /collaborators/
 ---
 
 Here are some amazing people and teams I've worked with or learned from:

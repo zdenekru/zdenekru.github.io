@@ -1,0 +1,15 @@
+- title: Curriculum Vitae
+  url: /cv/
+  icon: fas fa-address-card
+
+- title: Collaborators
+  url: /collaborators/
+  icon: fas fa-users
+
+- title: Categories
+  url: /categories/
+  icon: fas fa-stream
+
+- title: Tags
+  url: /tags/
+  icon: fas fa-tags

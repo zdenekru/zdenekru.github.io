@@ -1,7 +1,8 @@
 ---
+layout: page
 title: Curriculum Vitae
-icon: address-card
-order: 2
+icon: fas fa-address-card
+permalink: /cv/
 ---
 
 ## 🧑‍🎓 Education

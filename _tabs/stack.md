@@ -1,0 +1,24 @@
+---
+title: Stack
+permalink: /stack/
+layout: page
+icon: fas fa-toolbox
+order: 6
+---
+
+## 🧰 My Tech Stack
+
+| Area                       | Tools / Notes                                                                                                                                                                                                                                                                                                        |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🛠️ 3D Design                | ![Fusion 360](https://upload.wikimedia.org/wikipedia/commons/2/26/Autodesk_Fusion_360_logo.svg =24x24) Fusion 360, ![FreeCAD](https://upload.wikimedia.org/wikipedia/commons/0/02/FreeCAD_logo.svg =24x24) FreeCAD                                                                                                   |
+| 🌿 Version Control          | ![Git](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png =24x24) Git, ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png =24x24) GitHub, ![Azure DevOps](https://upload.wikimedia.org/wikipedia/commons/6/6a/Azure_DevOps_Logo.svg =24x24) Azure DevOps                 |
+| 💻 Programming              | ![Python](https://www.python.org/static/community_logos/python-logo.png =24x24) Python, ![C++](https://isocpp.org/assets/images/cpp_logo.png =24x24) C++                                                                                                                                                             |
+| 🤖 PLC Systems              | ![Unipi](https://unipi.technology/wp-content/uploads/2018/04/logo-unipi.png =24x24) Unipi / Mervis, ![Codesys](https://www.codesys.com/fileadmin/_processed_/b/d/csm_logo_codesys_1f2969e46d.png =24x24) WAGO / Codesys                                                                                              |
+| 📐 Electrical Documentation | ![QElectroTech](https://qelectrotech.org/img/logo-1024.png =24x24) QElectroTech                                                                                                                                                                                                                                      |
+| 🧾 PCB Design               | ![KiCAD](https://upload.wikimedia.org/wikipedia/commons/8/85/KiCad_logo.svg =24x24) KiCAD, ![CircuitMaker](https://cdn.circuitmaker.com/content/images/logos/CircuitMaker_Logo.png =24x24) CircuitMaker (possibly Altium)                                                                                            |
+| 🔌 Microcontrollers / ICs   | ![ESP32](https://upload.wikimedia.org/wikipedia/commons/3/3e/Espressif_Logo.svg =24x24) ESP32, ![STM32](https://upload.wikimedia.org/wikipedia/commons/5/56/STMicroelectronics_logo.svg =24x24) STM32, ![ATMega324](https://upload.wikimedia.org/wikipedia/commons/e/e0/Atmel_logo.svg =24x24) ATMega324             |
+| 🖥️ Operating Systems        | ![Windows](https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2021.svg =24x24) Win10/11, ![Debian](https://upload.wikimedia.org/wikipedia/commons/4/4a/Debian_logo.svg =24x24) Linux Debian, ![Fedora](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg =24x24) Linux RHEL/Fedora |
+| 🧑‍💻 Dev Environments         | ![VS Code](https://code.visualstudio.com/assets/images/code-stable.png =24x24) VS Code, ![PlatformIO](https://platformio.org/lib/.piocore/img/platformio-logo.png =24x24) PlatformIO                                                                                                                                 |
+| 💻 Scripting / CLI          | ![Bash](https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg =24x24) Bash, ![PowerShell](https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png =24x24) PowerShell                                                                                                         |
+| 📊 Monitoring / Logging     | ![Wireshark](https://upload.wikimedia.org/wikipedia/commons/7/7b/Wireshark_icon.svg =24x24) Wireshark, ![htop](https://upload.wikimedia.org/wikipedia/commons/e/e4/Htop.png =24x24) htop, ![Grafana](https://grafana.com/static/assets/img/logo_grafana_icon.svg =24x24) Grafana                                     |
+| 🧪 Simulation               | ![LTSpice](https://ltwiki.org/images/7/7e/LTspice_logo.png =24x24) LTSpice                                                                                                                                                                                                                                           |

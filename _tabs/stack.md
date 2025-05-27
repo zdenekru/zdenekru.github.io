@@ -3,7 +3,7 @@ title: Stack
 permalink: /stack/
 layout: page
 icon: fas fa-toolbox
-order: 4
+order: 5
 ---
 
 ## 🧰 My Tech Stack

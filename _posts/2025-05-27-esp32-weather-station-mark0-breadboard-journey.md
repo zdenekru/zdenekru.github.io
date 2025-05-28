@@ -54,7 +54,6 @@ Using their excellent example code from [examples.blynk.cc](https://examples.bly
 After many iterations and enough restarts to toast a PSU, I finally got this beautiful output on Serial:
 
 ```
-{
 [4132] Connected to WiFi
 [4132] IP: 192.168.88.239
 [4133] 
@@ -80,8 +79,6 @@ After many iterations and enough restarts to toast a PSU, I finally got this bea
 🌡️  Venku: 14.9°C (Pocitová: 14.3°C)
 🌥️  Popis: slabý déšť
 🖥️  E-Ink display updated.
-
-}
 ```
 ---
 

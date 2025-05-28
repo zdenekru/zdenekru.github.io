@@ -6,7 +6,7 @@ tags: [esp32, blynk, prototyping, electronics, arduino]
 layout: post
 ---
 
-# 💥 ESP32 Weather Station Mark0 – My Love/Hate Relationship with Breadboards
+# 💥 ESP32 Weather Station – My Love/Hate Relationship with Breadboards
 
 Every great electronics project starts with a tangle of jumper wires, misplaced resistors, and a moment of "why doesn't this boot anymore?" — and so it was for **Mark0**.
 

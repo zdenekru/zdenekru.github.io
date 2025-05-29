@@ -6,8 +6,6 @@ tags: [esp32, pcb, kicad, jlcpcb, electronics]
 layout: post
 ---
 
-# 🧾 ESP32 Weather Station – First PCB (Rev0)
-
 After a bit of breadboard chaos and cable spaghetti, it was time to move to something more permanent. Meet **Rev0** — the first PCB for the ESP32 Weather Station project.
 
 ---
@@ -35,7 +33,7 @@ In the previous post ([Love/Hate with Breadboards](/posts/esp32-weather-station-
 So for this board:
 
 - I chose **precision pin sockets** to ensure the ESP32 DevKit board sits firmly in place
-- Since **Neven** (the ESP32 board manufacturer) doesn’t publish a proper footprint, I manually added **two rows of 19-pin female headers** in the schematic
+- Since **Neven** (the ESP32 board manufacturer) doesn’t publish a proper footprint, I manually added **two rows of 15-pin female headers** in the schematic
 
 ---
 
@@ -69,7 +67,7 @@ Below is the 3D view of the board rendered directly from KiCAD:
 
 ## 🚀 Next Steps
 
-Waiting for the PCBs to arrive! Once they’re here, I’ll do assembly, first boot, and then start integrating it with the rest of the project stack (Blynk, eInk, sensors, OTA, etc.).
+Waiting for the PCBs to arrive! Once they’re here, I’ll do assembly, first boot, and then finally power it up without worry of faulty breadboards' jumper wires.
 
 Stay tuned for a build log once Rev0 is in hand!
 

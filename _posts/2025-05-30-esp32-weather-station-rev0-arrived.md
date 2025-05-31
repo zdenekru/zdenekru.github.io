@@ -14,7 +14,7 @@ Great news — the **Rev0 PCBs** for the ESP32 Weather Station project have arri
 
 ---
 
-![Rev0 PCB Front](/assets/img/esp32-mark0/rev0-front.jpg)
+![Rev0 PCB Front](/assets/img/esp32-mark0/rev0-front.png)
 
 Excited by how they turned out, I immediately began soldering. The **pre-soldered pad finish** made it a joy to work with — everything flowed smoothly, and the **precision pin sockets** went in without trouble.
 
@@ -22,7 +22,7 @@ But then... I noticed something.
 
 ---
 
-![Rev0 Populated](/assets/img/esp32-mark0/rev0-populated.jpg)
+![Rev0 Populated](/assets/img/esp32-mark0/rev0-populated.png)
 
 Yeah. That’s a bit of a **collision** between the **NodeMCU board** and the **eInk display**. They physically *don’t* fit well together on the current layout. A rookie mistake — but that’s what Rev0 is for: learning.
 

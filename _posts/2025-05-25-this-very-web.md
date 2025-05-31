@@ -6,8 +6,6 @@ categories: jekyll web dev
 tags: [jekyll, dev, learning]
 ---
 
-# Creating My Personal Website with Jekyll
-
 Today, I started building my very own personal website using [Jekyll](https://jekyllrb.com/). I chose Jekyll because it’s simple, flexible, and well supported by GitHub Pages, which makes hosting easy and free.
 
 ## Choosing a Minimalistic Theme

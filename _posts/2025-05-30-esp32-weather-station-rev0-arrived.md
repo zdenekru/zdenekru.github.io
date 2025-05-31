@@ -6,8 +6,6 @@ tags: [esp32, pcb, jlcpcb, kicad, hardware, lessons-learned]
 layout: post
 ---
 
-# 📦 ESP32 Weather Station – PCBs Rev0 Arrived and, Well, It's No Bueno
-
 Great news — the **Rev0 PCBs** for the ESP32 Weather Station project have arrived from [JLCPCB.com](https://jlcpcb.com), and the quality is absolutely stunning!
 
 💸 **The cost?** Just **4 Euros for 5 pieces** — shipping included. Honestly, I’m still amazed by what you can get for that price.
@@ -32,7 +30,7 @@ So, I fired up **KiCAD** again, reworked the layout, and placed an order for **R
 
 ## 🧠 Visual Recap from KiCAD
 
-Here’s a look at the Rev0 board design — **top layer**, **bottom layer**, and **3D render**, all side by side:
+Here’s a look at the Rev1 board design — **top layer**, **bottom layer**, and **3D render**, all side by side:
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
   <img src="/assets/img/esp32-mark0/rev1-top.png" alt="Top Layer" width="32%" />

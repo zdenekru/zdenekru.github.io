@@ -6,8 +6,6 @@ tags: [esp32, iot, weather, electronics, pcb]
 layout: post
 ---
 
-# 🌦️ Starting ESP32 Weather Station Project
-
 After a period of focusing on other areas, I’ve decided to kick off a new project that brings together many of the skills I’ve been wanting to sharpen again — from PCB design to working with APIs and embedded systems. The result will be a weather station powered by an **ESP32**, designed from the ground up.
 
 This project is meant to help me:

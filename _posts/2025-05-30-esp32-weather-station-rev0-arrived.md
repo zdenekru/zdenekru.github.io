@@ -35,7 +35,7 @@ So, I fired up **KiCAD** again, reworked the layout, and placed an order for **R
 Here’s a look at the Rev0 board design — **top layer**, **bottom layer**, and **3D render**, all side by side:
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-  <img src="/assets/img/esp32-mark0/rev-1top.png" alt="Top Layer" width="32%" />
+  <img src="/assets/img/esp32-mark0/rev1-top.png" alt="Top Layer" width="32%" />
   <img src="/assets/img/esp32-mark0/rev1-bottom.png" alt="Bottom Layer" width="32%" />
   <img src="/assets/img/esp32-mark0/rev1-3d-view.png" alt="3D View" width="32%" />
 </div>

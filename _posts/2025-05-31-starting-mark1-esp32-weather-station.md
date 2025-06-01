@@ -36,26 +36,26 @@ This time, I'm going full modular. I’ll be using **a lot of modules**, probabl
 
 Pin budget is **tight** for this application, but according to this map, it should work out — just barely. R&D is full of surprises though, so... fingers crossed 🤞.
 
-| Peripheral / Module            | Function            | Suggested GPIO(s)                | Notes                |
-| ------------------------------ | ------------------- | -------------------------------- | -------------------- |
-| **ILI9488 Display**            | SPI MOSI            | `GPIO23`                         | SPI Bus              |
-|                                | SPI CLK             | `GPIO18`                         | SPI Bus              |
-|                                | SPI CS (TFT)        | `GPIO15`                         | Chip Select          |
-|                                | D/C                 | `GPIO2`                          | Data/Command control |
-|                                | RESET (opt.)        | `GPIO4`                          | Can tie high         |
-|                                | Backlight Control   | `GPIO21`                         | PWM capable          |
-| **Touch Controller (XPT2046)** | SPI MISO            | `GPIO19`                         | SPI MISO shared      |
-|                                | Touch CS            | `GPIO5`                          | Separate CS          |
-| **BME680**                     | I2C SDA             | `GPIO22`                         | Shared I2C           |
-|                                | I2C SCL             | `GPIO21`                         | Shared I2C           |
-| **BH1750**                     | I2C                 | (Shared)                         | Same bus as BME680   |
-| **DS3231 RTC**                 | I2C                 | (Shared)                         | Same bus as BME680   |
-| **PIR Sensor (HC-SR501)**      | Digital Input       | `GPIO33`                         | Input-only pin       |
-| **Button #1**                  | Digital Input       | `GPIO25`                         | With pull-up         |
-| **Button #2**                  | Digital Input       | `GPIO26`                         | Optional             |
-| **Status LED**                 | Digital Output      | `GPIO27`                         | Any GPIO             |
-| **Battery Voltage Sense**      | Analog Input (ADC1) | `GPIO35`                         | via voltage divider  |
-| **Expansion / Future Use**     | Breakout Header     | `GPIO12`, `13`, `14`, `16`, `17` | Available            |
+| Peripheral / Module            | Function            | Suggested GPIO(s)          | Notes                |
+| ------------------------------ | ------------------- | -------------------------- | -------------------- |
+| **ILI9488 Display**            | SPI MOSI            | `GPIO23`                   | SPI Bus              |
+|                                | SPI CLK             | `GPIO18`                   | SPI Bus              |
+|                                | SPI CS (TFT)        | `GPIO15`                   | Chip Select          |
+|                                | D/C                 | `GPIO2`                    | Data/Command control |
+|                                | RESET (opt.)        | `GPIO4`                    | Can tie high         |
+|                                | Backlight Control   | `GPIO13`                   | PWM capable          |
+| **Touch Controller (XPT2046)** | SPI MISO            | `GPIO19`                   | SPI MISO shared      |
+|                                | Touch CS            | `GPIO5`                    | Separate CS          |
+| **BME680**                     | I2C SDA             | `GPIO22`                   | Shared I2C           |
+|                                | I2C SCL             | `GPIO21`                   | Shared I2C           |
+| **BH1750**                     | I2C                 | (Shared)                   | Same bus as BME680   |
+| **DS3231 RTC**                 | I2C                 | (Shared)                   | Same bus as BME680   |
+| **PIR Sensor (HC-SR501)**      | Digital Input       | `GPIO33`                   | Input-only pin       |
+| **Button #1**                  | Digital Input       | `GPIO25`                   | With pull-up         |
+| **Button #2**                  | Digital Input       | `GPIO26`                   | Optional             |
+| **Status LED**                 | Digital Output      | `GPIO27`                   | Any GPIO             |
+| **Battery Voltage Sense**      | Analog Input (ADC1) | `GPIO35`                   | via voltage divider  |
+| **Expansion / Future Use**     | Breakout Header     | `GPIO12`, `14`, `16`, `17` | Available            |
 
 ### 🧠 Visual Map:
 
@@ -65,7 +65,7 @@ Pin budget is **tight** for this application, but according to this map, it shou
             |  VP             GPIO22   |-- I2C SDA (BME680, etc.)
 5V        --|  VIN            GPIO1    |-- TX0 (USB Serial)
 Free      --|  GPIO34         GPIO3    |-- RX0 (USB Serial)
-ADC       --|  GPIO35         GPIO21   |-- I2C SCL / Backlight
+ADC       --|  GPIO35         GPIO21   |-- I2C SCL
 Battery   --|  GPIO32         GPIO19   |-- MISO (Touch)
 PIR       --|  GPIO33         GPIO18   |-- CLK (TFT)
 Button1   --|  GPIO25         GPIO5    |-- Touch CS
@@ -73,9 +73,9 @@ Button2   --|  GPIO26         GPIO17   |-- Free / Expansion
 StatusLED --|  GPIO27         GPIO16   |-- Free / Expansion
 Free      --|  GPIO14         GPIO4    |-- RESET (TFT)
 Free      --|  GPIO12         GPIO2    |-- D/C (TFT)
-Free      --|  GPIO13         GPIO15   |-- TFT CS
+Backlight --|  GPIO13         GPIO15   |-- TFT CS
 GND       --|  GND            GND      |-- GND
-4V        --|  VIN            3V3      |-- 3.3V        
+5V        --|  VIN            3V3      |-- 3.3V        
             +--------------------------+
 ```
 

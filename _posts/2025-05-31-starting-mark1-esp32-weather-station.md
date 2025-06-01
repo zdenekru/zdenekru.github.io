@@ -12,7 +12,7 @@ Yes, the naming convention might start sounding confusing (Mark 0 Rev1 vs Mark 1
 
 ---
 
-## 🧠 Let’s Add More Features!
+## 📃 Let’s Add More Features!
 
 This time, I'm going full modular. I’ll be using **a lot of modules**, probably for the last time — future iterations will reduce the number of off-the-shelf boards and become more integrated.
 

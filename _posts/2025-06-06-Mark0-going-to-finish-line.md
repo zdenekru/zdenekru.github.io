@@ -1,7 +1,9 @@
 ---
 title: "Going to a Finish Line with Mark0"
 date: 2025-06-06 21:00:00 +0200
+categories: [projects]
 tags: [ESP32, Flask, IoT, Dashboard, ProjectLog]
+layout: post
 ---
 
 After a bunch of updates and some solid troubleshooting, I think I’m finally reaching the finish line with **ESP32 Mark0**.

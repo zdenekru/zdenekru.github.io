@@ -30,4 +30,4 @@ Current stack includes:
 - **Syncthing** for file synchronization
 - **Prometheus + Grafana** for monitoring
 
-📄 [Read the build log](/posts/homelab-beginnings/)
+📄 [Read the build log]({% post_url 2026-03-14-homelab-begins %})

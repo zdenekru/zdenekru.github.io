@@ -111,6 +111,7 @@ It feels surprisingly good to search the web **without being constantly tracked 
 
 Combined with Nginx Proxy Manager, I now have my own: search.local
 
+![SearXNG](/assets/img/homelab/searxng1.png)
 
 Even better — Firefox allows adding custom search engines, so I can use it directly from the address bar.
 

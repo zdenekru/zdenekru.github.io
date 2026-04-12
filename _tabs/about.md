@@ -35,9 +35,9 @@ I work across different areas of electrical design:
 
 - Programming in **Python** and **C++**
 - Using microcontrollers like **ESP32**, **STM32**, and **ATMega328P**
-- PCB and hardware design in **KiCAD**, **CircuitMaker**
-- Simulation with **LTSpice**
-- Prototyping and enclosure design in **Fusion 360**, **FreeCAD**
+- PCB and hardware design in **KiCAD**, **Altium / CircuitMaker**
+- Simulation with **LTSpice**, **KiCAD** or **PSpice**
+- Prototyping and enclosure design in **Solidworks**, **Fusion 360**, **FreeCAD**
 
 ---
 

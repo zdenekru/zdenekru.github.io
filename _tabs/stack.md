@@ -10,16 +10,16 @@ order: 5
 
 | Area                       | Tools / Notes                              |
 | -------------------------- | ------------------------------------------ |
-| 🛠️ 3D Design                | Fusion 360, FreeCAD                        |
+| 🛠️ 3D Design                | Solidworks, Fusion 360, FreeCAD            |
 | 🌿 Version Control          | Git, GitHub, Azure DevOps                  |
-| 💻 Programming              | Python, C++                                |
+| 💻 Programming              | Python, C++, ST                            |
 | 🐍 Python Libraries         | OpenCV, matplotlib, NumPy, SciPy, requests |
 | 🤖 PLC Systems              | Unipi / Mervis, WAGO / Codesys             |
-| 📐 Electrical Documentation | QElectroTech                               |
-| 🧾 PCB Design               | KiCAD, CircuitMaker (possibly Altium)      |
+| 📐 Electrical Documentation | ePlan, QElectroTech, ProfiCAD              |
+| 🧾 PCB Design               | KiCAD, Altium / CircuitMaker, Fusion 360   |
 | 🔌 Microcontrollers / ICs   | ESP32, STM32, ATMega324                    |
 | 🖥️ Operating Systems        | Win10/11, Linux Debian, Linux RHEL/Fedora  |
-| 🧑‍💻 Dev Environments         | VS Code, PlatformIO                        |
+| 🧑‍💻 Dev Environments         | VSCode, PlatformIO                         |
 | 💻 Scripting / CLI          | Bash, PowerShell                           |
 | 📊 Monitoring / Logging     | Wireshark, htop, Grafana                   |
-| 🧪 Simulation               | LTSpice                                    |
+| 🧪 Simulation               | LTSpice, PSpice, CircuitLab                |

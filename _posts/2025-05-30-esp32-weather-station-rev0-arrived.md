@@ -4,6 +4,8 @@ date: 2025-05-30 18:00:00 +0200
 categories: [projects]
 tags: [esp32, pcb, jlcpcb, kicad, hardware, lessons-learned]
 layout: post
+image:
+  path: /assets/img/esp32-mark0/rev0-populated.png
 ---
 
 Great news — the **Rev0 PCBs** for the ESP32 Weather Station project have arrived from [JLCPCB.com](https://jlcpcb.com), and the quality is absolutely stunning!

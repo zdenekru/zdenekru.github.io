@@ -4,6 +4,8 @@ date: 2025-05-27 18:00:00 +0200
 categories: [projects]
 tags: [esp32, pcb, kicad, jlcpcb, electronics]
 layout: post
+image:
+  path: /assets/img/esp32-mark0/3d-view.png
 ---
 
 After a bit of breadboard chaos and cable spaghetti, it was time to move to something more permanent. Meet **Rev0** — the first PCB for the ESP32 Weather Station project.

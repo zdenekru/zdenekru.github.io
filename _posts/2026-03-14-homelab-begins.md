@@ -4,6 +4,8 @@ date: 2026-03-14 18:00:00 +0200
 categories: [homelab]
 tags: [Homelab, Debian, Docker, Grafana, Syncthing, Monitoring]
 layout: post
+image:
+  path: /assets/img/homelab/case.png
 ---
 
 After a bit of a **long silence**, I'm finally back to writing here again.

@@ -4,6 +4,8 @@ date: 2025-06-15 10:00:00 +0200
 categories: [projects]
 tags: [ESP32, IoT, Dashboard, ProjectLog, Sooldering]
 layout: post
+image:
+  path: /assets/img/esp32-mark0/mark0rev1.png
 ---
 
 **Mark0 Rev1 Has Landed 🚀** The **Rev1** version of my Mark0 board has just arrived from JLCPCB — and once again, I'm genuinely surprised by the quality and speed. Seriously, **they're not paying me**, this is just me being impressed every single time.

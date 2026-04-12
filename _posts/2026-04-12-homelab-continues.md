@@ -4,6 +4,8 @@ date: 2026-04-12 20:00:00 +0200
 categories: [homelab]
 tags: [Homelab, Docker, Portainer, Nginx, SearXNG, Self-Hosting]
 layout: post
+image:
+  path: /assets/img/homelab/homepage1.png
 ---
 
 Since my last post, I’ve been slowly getting back into my projects whenever I had the time and energy — and luckily, the homelab is one of them.
@@ -28,7 +30,7 @@ Lesson learned.
 
 To make managing Docker a bit more user-friendly, I added **Portainer**.
 
-👉 https://www.portainer.io/
+👉 [https://www.portainer.io/](https://www.portainer.io/)
 
 Not everything needs to be done via the terminal — and honestly, this is just **convenient**.
 
@@ -48,7 +50,7 @@ And of course, a full overview of containers and their statuses:
 
 To make navigating all these services easier, I set up a **homepage dashboard**.
 
-👉 https://gethomepage.dev/
+👉 [https://gethomepage.dev/](https://gethomepage.dev/)
 
 After a fair bit of wrestling with **YAML and TOML configs**, I finally got it into a state I’m happy with.
 
@@ -89,7 +91,7 @@ Typing `IP:PORT` into a browser over and over again gets old *very* quickly.
 
 So I finally gave in and deployed **Nginx Proxy Manager**.
 
-👉 https://nginxproxymanager.com/
+👉 [https://nginxproxymanager.com/](https://nginxproxymanager.com/)
 
 The setup was… a mix of easy and tricky. Each service needed slightly different configuration, so there was quite a bit of trial and error. But in the end, everything came together nicely. Only downside was manualy adding new mDNS names to every container docker-compose.yaml file.
 
@@ -103,7 +105,7 @@ Now I can access my services via clean local domains instead of remembering port
 
 And finally, probably my favorite addition so far: **SearXNG**.
 
-👉 https://docs.searxng.org/
+👉 [https://docs.searxng.org/](https://docs.searxng.org/)
 
 A **self-hosted search engine**.
 

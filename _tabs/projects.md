@@ -10,7 +10,7 @@ order: 4
 
 Explore what I’ve been working on.
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;">
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,340px)); gap:20px; justify-content:start;">
 
 <!-- ESP32 Project -->
 <div style="border:1px solid #2e2e2e; border-radius:10px; padding:20px;">

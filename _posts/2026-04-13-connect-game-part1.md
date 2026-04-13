@@ -54,7 +54,7 @@ I messed up 😅
 Specifically, I **mirrored the GPIO extender (AW9523R)**.  
 Since there were no official KiCad libraries available, I created my own footprint — and got it wrong.
 
-![Connect Game Front](/assets/img/connect-game/connectgamefront1.jpg)
+![Connect Game Front](/assets/img/connect-game/connectgamefront1.png)
 
 Stuff like this happens.
 
@@ -66,7 +66,7 @@ I ended up re-soldering the GPIO extender on the other side of the board, and af
 
 …but it was far from ideal.
 
-![Connect Game Back](/assets/img/connect-game/connectgameback1.jpg)
+![Connect Game Back](/assets/img/connect-game/connectgameback1.png)
 
 ## The Real Problem
 

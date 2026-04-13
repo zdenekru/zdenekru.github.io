@@ -35,6 +35,36 @@ A project focused on <b>bare-metal development with ESP32</b>, written from scra
 
 </div>
 
+<!-- Connect Game Project -->
+
+<div style="border:1px solid #2e2e2e; border-radius:10px; padding:20px;">
+
+<h3>🎮 Connect Game</h3>
+
+<p>
+An electronic device for a <b>simple logical game</b> designed for a Fallout-themed LARP.
+</p>
+
+<p>
+<i class="fas fa-code"></i> C  
+<i class="fas fa-microchip"></i> Arduino  
+<i class="fas fa-wifi"></i> IoT
+</p>
+
+<p>
+<a href="{% post_url 2026-04-13-connect-game-part1 %}">
+<i class="fas fa-book"></i> Build Log (Part 1)
+</a>
+</p>
+
+<p>
+<span style="opacity:0.6;">
+<i class="fab fa-github"></i> GitHub: TBA
+</span>
+</p>
+
+</div>
+
 <!-- Homelab Project -->
 <div style="border:1px solid #2e2e2e; border-radius:10px; padding:20px;">
 

@@ -1,6 +1,6 @@
 ---
 title: "Connect Game - Part 1"
-date: 2026-04-13 20:00:00 +0200
+date: 2026-04-12 21:00:00 +0200
 categories: [projects]
 tags: [Arduino, Fallout, LARP, C, game]
 layout: post

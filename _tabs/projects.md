@@ -12,6 +12,36 @@ Explore what I’ve been working on.
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,340px)); gap:20px; justify-content:start;">
 
+<!-- Zdenduino Project -->
+<div style="border:1px solid #2e2e2e; border-radius:10px; padding:20px;">
+
+<h3>⚡ Zdenduino</h3>
+
+<p>
+A compact custom <b>ESP32-C3 development board</b> designed from scratch in KiCad, focused on learning PCB design, RF layout and embedded hardware development.
+</p>
+
+<p>
+<i class="fas fa-microchip"></i> ESP32-C3  
+<i class="fas fa-drafting-compass"></i> KiCad  
+<i class="fas fa-wave-square"></i> USB & RF  
+<i class="fas fa-industry"></i> JLCPCB PCBA
+</p>
+
+<p>
+<a href="{% post_url 2026-05-07-zdenduino-part1 %}">
+<i class="fas fa-book"></i> Build Log (Part 1)
+</a>
+</p>
+
+<p>
+<span style="opacity:0.6;">
+<i class="fab fa-github"></i> GitHub: Coming Soon
+</span>
+</p>
+
+</div>
+
 <!-- ESP32 Project -->
 <div style="border:1px solid #2e2e2e; border-radius:10px; padding:20px;">
 
@@ -59,7 +89,8 @@ An electronic device for a <b>simple logical game</b> designed for a Fallout-the
 
 <p>
 <span style="opacity:0.6;">
-<i class="fab fa-github"></i> GitHub: TBA
+<a href="https://github.com/zdenekru/connect-game">
+<i class="fab fa-github"></i> GitHub Repository
 </span>
 </p>
 

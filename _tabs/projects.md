@@ -91,6 +91,7 @@ An electronic device for a <b>simple logical game</b> designed for a Fallout-the
 <span style="opacity:0.6;">
 <a href="https://github.com/zdenekru/connect-game">
 <i class="fab fa-github"></i> GitHub Repository
+</a>
 </span>
 </p>
 

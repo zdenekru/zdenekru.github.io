@@ -18,7 +18,7 @@ While browsing YouTube, I stumbled upon an amazing video by [PajoPCB](https://ww
 
 Pajo explained everything — and I mean *everything*. I finally got a deep dive into:
 - **Impedance matching** and **trace differential pairing** (essential for USB and RF).
-- Why creating traces too thick isn't always a good idea (looking at my [Connect Game](./connect-game-part-2) traces... oops, but hey, it worked!).
+- Why creating traces too thick isn't always a good idea looking at my [Connect Game]({% post_url 2026-05-01-connect-game-part3 %}) traces... oops, but hey, it worked!).
 - The correct usage of **decoupling capacitors** and **ESD protection**.
 
 It was a total gold mine of practical advice.

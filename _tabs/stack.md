@@ -11,13 +11,13 @@ order: 5
 | Area                       | Tools / Notes                              |
 | -------------------------- | ------------------------------------------ |
 | 🛠️ 3D Design                | Solidworks, Fusion 360, FreeCAD            |
-| 🌿 Version Control          | Git, GitHub, Azure DevOps                  |
+| 🌿 Version Control          | Git, GitHub, Azure DevOps, SVN             |
 | 💻 Programming              | Python, C++, ST                            |
 | 🐍 Python Libraries         | OpenCV, matplotlib, NumPy, SciPy, requests |
 | 🤖 PLC Systems              | Unipi / Mervis, WAGO / Codesys             |
 | 📐 Electrical Documentation | ePlan, QElectroTech, ProfiCAD              |
 | 🧾 PCB Design               | KiCAD, Altium / CircuitMaker, Fusion 360   |
-| 🔌 Microcontrollers / ICs   | ESP32, STM32, ATMega324                    |
+| 🔌 Microcontrollers / ICs   | ESP32, STM32, ATMega324, ATtiny1616        |
 | 🖥️ Operating Systems        | Win10/11, Linux Debian, Linux RHEL/Fedora  |
 | 🧑‍💻 Dev Environments         | VSCode, PlatformIO                         |
 | 💻 Scripting / CLI          | Bash, PowerShell                           |

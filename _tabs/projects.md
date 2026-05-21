@@ -35,9 +35,9 @@ A compact custom <b>ESP32-C3 development board</b> designed from scratch in KiCa
 </p>
 
 <p>
-<span style="opacity:0.6;">
-<i class="fab fa-github"></i> GitHub: Coming Soon
-</span>
+<a href="https://github.com/zdenekru/ZdenduinoRXX">
+<i class="fab fa-github"></i> GitHub Repository
+</a>
 </p>
 
 </div>

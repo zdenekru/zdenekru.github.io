@@ -152,6 +152,13 @@ And suddenly:
 
 We all have our moments :D
 
+To make the success finally visible, I connected a 100 Ohm resistor and an LED, and there it was: a proper, beautiful blink on my own board.
+
+<video controls preload="metadata" style="width: 100%; border-radius: 8px;">
+  <source src="/assets/img/zdenduino/2zdenduino_blink.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## What Comes Next?
 
 Right now my brain is basically bathing in dopamine and I already have a huge list of ideas for future revisions.

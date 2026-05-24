@@ -4,8 +4,8 @@ date: 2026-05-24 12:00:00 +0200
 categories: [projects]
 tags: [ESP32, Wi-Fi, Bluetooth, OTA, MQTT, Electronics, DIY]
 layout: post
-# image:
-#   path: /assets/img/zdenduino/4zdenduino_discharge_test.png
+image:
+  path: /assets/img/zdenduino/4zdenduino_discharge_test.png
 ---
 
 ## Where Part 3 Left Off

@@ -52,6 +52,7 @@ This site is a place to document and share my work. I chose a minimalist design 
 ---
 
 ## 📫 Get in Touch
+{: #get-in-touch }
 
 You can reach me at:
 

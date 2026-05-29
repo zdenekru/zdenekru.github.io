@@ -20,24 +20,6 @@ Nothing too fancy yet. Just small, focused tests that answer one question at a t
 
 **Can Zdenduino read real-world modules reliably?**
 
-## The Plan
-
-- [Where Part 4 Left Off](#where-part-4-left-off)
-- [The Plan](#the-plan)
-- [Test 1: PIR Detector](#test-1-pir-detector)
-- [Test 2: PIR Dashboard and API Fetch](#test-2-pir-dashboard-and-api-fetch)
-- [Test 3: Deep Sleep](#test-3-deep-sleep)
-- [Test 4: Realtime WebSocket GPIO Dashboard](#test-4-realtime-websocket-gpio-dashboard)
-  - [The Goal](#the-goal)
-  - [The Dashboard Layout](#the-dashboard-layout)
-  - [The Result](#the-result)
-  - [Video Demo](#video-demo)
-  - [WebSocket GPIO Dashboard Code](#websocket-gpio-dashboard-code)
-- [Final Thoughts ](#final-thoughts-)
-- [What's Next ](#whats-next-)
-
-
-
 ## Test 1: PIR Detector
 
 The first sensor test is the classic **HC-SR501 PIR motion detector**.
@@ -1188,11 +1170,11 @@ void loop()
 
 ---
 
-## Final Thoughts <a name="final-thoughts" id="final-thoughts"></a>
+## Final Thoughts
 
 I think I have done enough testing for now. There are still plenty of exciting ideas floating around for future experiments—like building a mini digital oscilloscope, exploring audio projects (such as a theremin), integrating light sensors, current meters, a pseudo-random noise generator, or even implementing a PID regulator. But for this phase of the project, the current tests have proven exactly what I needed.
 
-## What's Next <a name="whats-next" id="whats-next"></a>
+## What's Next
 
 At this point, **Zdenduino** is starting to feel less like a simple development board and more like a fully fledged, versatile IoT platform.
 

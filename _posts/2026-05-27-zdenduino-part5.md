@@ -10,7 +10,7 @@ image:
 
 ## Where Part 4 Left Off
 
-In [Part 4]({% post_url 2026-05-24-zdenduino-part4 %}), Zdenduino went through another useful shakedown round: PWM fade, ADC reading, BLE scanning, and BLE LED control.
+In Part 4, Zdenduino went through another useful shakedown round: PWM fade, ADC reading, BLE scanning, and BLE LED control.
 
 That was a nice mix of analog-ish behavior, wireless experiments, and the classic "can this pin do what I think it can do?" testing.
 

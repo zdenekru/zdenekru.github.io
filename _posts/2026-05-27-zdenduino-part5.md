@@ -940,7 +940,7 @@ And seeing my own custom PCB being controlled from a browser in realtime was an 
 ### Video Demo
 
 <video autoplay loop muted playsinline width="100%">
-  <source src="/assets/video/5zdenduino_websocket.mp4" type="video/mp4">
+  <source src="/assets/img/zdenduino/5zdenduino_websocket.mp4" type="video/mp4">
 </video>
 
 The video above shows realtime PWM brightness control over WebSockets.

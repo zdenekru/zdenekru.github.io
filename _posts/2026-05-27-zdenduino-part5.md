@@ -22,10 +22,10 @@ Nothing too fancy yet. Just small, focused tests that answer one question at a t
 
 ## The Plan
 
-- [**Test 1:** PIR motion detector integration](#test-1-pir-motion-detector-integration)
-- [**Test 2:** PIR web dashboard with API fetch](#test-2-pir-web-dashboard-with-api-fetch)
-- [**Test 3:** Deep Sleep power management (Timer & GPIO wakeup)](#test-3-deep-sleep-power-management-timer--gpio-wakeup)
-- [**Test 4:** Realtime Web Dashboard using WebSockets and JSON (ESP32 v3.0 API)](#test-4-realtime-web-dashboard-using-websockets-and-json-esp32-v30-api)
+- [**Test 1:** PIR motion detector integration](#test-1-pir-detector)
+- [**Test 2:** PIR web dashboard with API fetch](#test-2-pir-dashboard-and-api-fetch)
+- [**Test 3:** Deep Sleep power management (Timer & GPIO wakeup)](#test-3-deep-sleep)
+- [**Test 4:** Realtime Web Dashboard using WebSockets and JSON (ESP32 v3.0 API)](#test-4-realtime-websocket-gpio-dashboard)
 
 ## Test 1: PIR Detector
 

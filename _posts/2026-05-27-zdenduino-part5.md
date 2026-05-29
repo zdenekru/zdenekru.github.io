@@ -34,7 +34,9 @@ Nothing too fancy yet. Just small, focused tests that answer one question at a t
   - [Video Demo](#video-demo)
   - [WebSocket GPIO Dashboard Code](#websocket-gpio-dashboard-code)
 - [Final Thoughts](#final-thoughts)
-- [What's Next?](#whats-next)
+- [What's Next](#whats-next)
+
+
 
 ## Test 1: PIR Detector
 
@@ -1190,7 +1192,7 @@ void loop()
 
 I think I have done enough testing for now. There are still plenty of exciting ideas floating around for future experiments—like building a mini digital oscilloscope, exploring audio projects (such as a theremin), integrating light sensors, current meters, a pseudo-random noise generator, or even implementing a PID regulator. But for this phase of the project, the current tests have proven exactly what I needed.
 
-## What's Next?
+## What's Next
 
 At this point, **Zdenduino** is starting to feel less like a simple development board and more like a fully fledged, versatile IoT platform.
 

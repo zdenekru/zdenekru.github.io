@@ -27,7 +27,7 @@ Nothing too fancy yet. Just small, focused tests that answer one question at a t
 - [Test 1: PIR Detector](#test-1-pir-detector)
 - [Test 2: PIR Dashboard and API Fetch](#test-2-pir-dashboard-and-api-fetch)
 - [Test 3: Deep Sleep](#test-3-deep-sleep)
-- [Test #4: Realtime WebSocket GPIO Dashboard](#test-4-realtime-websocket-gpio-dashboard)
+- [Test 4: Realtime WebSocket GPIO Dashboard](#test-4-realtime-websocket-gpio-dashboard)
   - [The Goal](#the-goal)
   - [The Dashboard Layout](#the-dashboard-layout)
   - [The Result](#the-result)
@@ -850,7 +850,7 @@ Waiting for PIR motion...
 
 Honestly, seeing my own custom PCB wake up from a PIR interrupt felt ridiculously satisfying.
 
-## Test #4: Realtime WebSocket GPIO Dashboard
+## Test 4: Realtime WebSocket GPIO Dashboard
 
 After validating GPIOs, PWM and Deep Sleep functionality, I wanted to push the board into something that actually *felt* like a real IoT platform.
 

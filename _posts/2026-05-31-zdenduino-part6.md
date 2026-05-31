@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Final form of Dashboard"
+title: "Zdenduino - Final form of Dashboard - Part 6"
 date: 2026-05-31 12:00:00 +0200
 tags: [ESP32, GPIO, Wi-Fi, HTTP, API, VSC, PlatformIO, Electronics, DIY]
 categories: esp32 embedded web-interface
@@ -12,7 +12,7 @@ Yesterday I couldn't stop thinking how to move forward with ESP32C3 and especial
 
 So I sat down and after a lot of deliberation of why the **** I cant upload an image to ESP32, I decided it is time to split the project properly and make dedicated backend and frontend parts instead of forcing everything into a single cramped chunk.
 
-### Moving Beyond the Arduino IDE
+## Moving Beyond the Arduino IDE
 
 This decision made my life SO MUCH EASIER I can't believe it. It also helped, well, I was kinda forced to use VS Code (with PlatformIO) instead of the stock ArduinoIDE for this particular "test". For it to run smoothly, I used this initialization:
 
@@ -662,6 +662,8 @@ function handleDisconnect() {
 ```
 
 ![Zdenduino Communication Error](/assets/img/zdenduino/6zdenduino_comerror.png)
+
+## Initial state sync routine
 
 More importantly, I implemented a proper initial state sync routine. On boot, all pins are automatically mapped into a deterministic, safe INPUT state to protect whatever components might be tied to the rails. The second a new device logs onto the dashboard via WebSockets, the frontend fires a "requestSync" handshake payload. The ESP32 immediately dumps its active state matrices—including real-time pin orientations, high/low voltage data, and raw system uptime metrics—and forces the dynamic UI elements to catch up immediately.
 

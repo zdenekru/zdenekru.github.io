@@ -599,8 +599,151 @@ The resulting webpage is simply beautiful!
 
 Not just the graphical interface was upgraded, a robust WebSocket heartbeat mechanism is now present to actively check whether the machine is still connected. If the connection drops for whatever reason, a blurred connection-error modal immediately overlays the entire view.
 
-More importantly, I implemented a proper initial state sync routine. On boot, all pins are automatically mapped into a deterministic, safe INPUT state to protect whatever components might be tied to the rails. The second a new device logs onto the dashboard via WebSockets, the frontend fires a "requestSync" handshake payload. The ESP32 immediately dumps its active state matrices—including real-time pin orientations, high/low voltage data, and raw system uptime metrics—and forces the dynamic UI elements to catch up immediately.
+```javascript
+// ============================================================================
+// WEBSOCKET HEARTBEAT (PING/PONG) & ERROR HANDLING MECHANISM
+// ============================================================================
+
+// Global pointers to manage background timer routines
+let pingInterval;      // Periodically sends "ping" payloads to check if ESP32 is alive
+let reconnectTimeout;  // Schedules an automatic retry lock if the connection drops
+
+function connect() {
+  log(`Connecting to ws://${ESP32_IP}:81...`);
+  ws = new WebSocket(`ws://${ESP32_IP}:81`);
+
+  // Triggered immediately when the WebSocket successfully opens
+  ws.onopen = () => {
+    log("Connected to hardware backend.");
+    
+    // 1. CLEAR RECONNECT LOOPS: Stop any pending reconnection attempts
+    clearTimeout(reconnectTimeout);
+
+    // 2. DISMISS ERROR MODAL: Hide the blurred error overlay from the screen
+    document.getElementById("error-overlay").style.display = "none";
+    document.getElementById("status-dot").className = "status-dot connected";
+    document.getElementById("status-text").textContent = "Online";
+
+    // 3. START HEARTBEAT: Send a lightweight "ping" every 5000ms (5 seconds).
+    // If the hardware turns off or disconnects, the socket will timeout or throw an error.
+    pingInterval = setInterval(() => {
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({ type: 'ping' }));
+      }
+    }, 5000);
+  };
+
+  // Triggered when the link drops or the heartbeat fails to receive an echo
+  ws.onclose = () => {
+    handleDisconnect();
+  };
+
+  // Catch-all route to gracefully catch network crashes and force a safe closure
+  ws.onerror = (err) => {
+    ws.close();
+  };
+}
+
+function handleDisconnect() {
+  // 1. KILL ALIVE TIMERS: Stop trying to ping a broken socket channel
+  clearInterval(pingInterval);
+
+  // 2. TRIGGER ERROR MODAL: Instantly show the blurred error overlay component
+  // to prevent any user interactions while the hardware link is dead.
+  document.getElementById("error-overlay").style.display = "flex";
+  document.getElementById("status-dot").className = "status-dot";
+  document.getElementById("status-text").textContent = "Connection Error!";
+  
+  // 3. AUTO-RECONNECT ROUTINE: Clear pending queues and block a new connection 
+  // attempt for 3000ms (3 seconds) to prevent hammering the network link.
+  clearTimeout(reconnectTimeout);
+  reconnectTimeout = setTimeout(connect, 3000);
+}
+```
 
 ![Zdenduino Communication Error](/assets/img/zdenduino/6zdenduino_comerror.png)
+
+More importantly, I implemented a proper initial state sync routine. On boot, all pins are automatically mapped into a deterministic, safe INPUT state to protect whatever components might be tied to the rails. The second a new device logs onto the dashboard via WebSockets, the frontend fires a "requestSync" handshake payload. The ESP32 immediately dumps its active state matrices—including real-time pin orientations, high/low voltage data, and raw system uptime metrics—and forces the dynamic UI elements to catch up immediately.
+
+### Frontend:
+
+```html
+// ============================================================================
+// FRONTEND: INITIAL HANDSHAKE REQUEST (JavaScript)
+// ============================================================================
+
+ws.onopen = () => {
+  log("Connected to hardware backend.");
+  
+  // Dismiss error overlays and update status indicators
+  document.getElementById("error-overlay").style.display = "none";
+  document.getElementById("status-dot").className = "status-dot connected";
+
+  // 1. STATE SYNC HANDSHAKE: The very second the WebSocket connection is established,
+  // we fire a "requestSync" action payload to the ESP32. We don't guess the pin states;
+  // we demand the absolute ground truth from the hardware right away.
+  send({ type: 'requestSync' });
+
+  // Start the regular heartbeat loop afterwards
+  pingInterval = setInterval(() => {
+    if(ws.readyState === WebSocket.OPEN) {
+      send({ type: 'ping' });
+    }
+  }, 5000);
+};
+```
+
+### Backend:
+
+```c++
+// ============================================================================
+// BACKEND: DETERMINISTIC SETUP & MATRIX DUMP (C++ / PlatformIO)
+// ============================================================================
+
+// Global matrix to keep track of the dynamic runtime state of each pin
+struct GpioState {
+  String mode = "input"; // Default fallback state
+};
+GpioState gpioStates[12]; // Indexed directly by hardware GPIO numbers
+
+void setup() {
+  Serial.begin(115200);
+
+  // 1. HARDWARE PROTECTION LAYER: On boot, explicitly force every configured 
+  // pin into a safe, high-impedance INPUT state. This prevents accidental short 
+  // circuits or frying components attached to the rails before the code fully starts.
+  for(auto &g : gpioList) {
+    pinMode(g.pin, INPUT); 
+    gpioStates[g.pin].mode = "input"; // Keep internal software matrix synchronized
+  }
+  
+  // Initialize Wi-Fi and WebSockets server downstream...
+}
+
+// 2. LIVE STATE DUMP: Triggered whenever a client connects or requests data
+void sendTelemetry() {
+  JsonDocument doc;
+  
+  // Pack core system metadata metrics
+  doc["type"] = "telemetry";
+  doc["uptime"] = millis() / 1000; // Raw uptime converted to seconds
+  doc["rssi"] = WiFi.RSSI();        // Current Wi-Fi signal strength in dBm
+
+  // Create explicit nested JSON objects to hold the pin status matrices
+  JsonObject pins = doc["pins"].to<JsonObject>();
+  JsonObject modes = doc["modes"].to<JsonObject>();
+  
+  // Extract and dump active hardware configuration parameters
+  for(auto &g : gpioList) {
+    pins[String(g.pin)] = digitalRead(g.pin);       // Real-time high/low voltage data (1/0)
+    modes[String(g.pin)] = gpioStates[g.pin].mode;  // Active pin direction layout (input/output/pwm)
+  }
+
+  // Serialize the data structure into a single string and blast it across WebSockets
+  String output;
+  serializeJson(doc, output);
+  notifyClients(output); // Dynamic UI elements on the frontend will catch up immediately
+}
+```
 
 With this, I am much more satisfied with both the look and function. On top of this, I can finally move on to the final "graduation" project of the Zdenduino validation cycle!

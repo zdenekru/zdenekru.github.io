@@ -8,8 +8,6 @@ image:
   path: /assets/img/homelab/cashyosintelsteamheader.png
 ---
 
-# Debugging Steam and Intel Arc Graphics on CachyOS: A Resizable BAR Story
-
 Sometimes a software problem is not really a software problem.
 
 This story started with Steam crashing on my CachyOS installation. Or, more precisely, Steam itself appeared to work, but several `steamwebhelper` processes were crashing in the background.
@@ -268,7 +266,7 @@ I went into the BIOS and enabled the two relevant options required for Resizable
 
 ![BIOS photo](/assets/img/homelab/bios.png)
 
-I changed **Above 4G Decoding** and **Resizable BAR**  options to the state as seen on photo and after saving the changes and rebooting back into CachyOS, I checked the BAR configuration again:
+I enabled **Above 4G Decoding** and **Resizable BAR**, as shown in the photo. After saving the changes and rebooting into CachyOS, I checked the BAR configuration again:
 
 ```bash
 lspci -vv -s 08:00.0 | grep -i -A3 -B2 'Resizable BAR'

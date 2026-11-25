@@ -20,7 +20,7 @@ After quite a bit of frustration with **Syncthing**, I finally figured out why s
 
 The issue? **Folder nesting.**
 
-You simply **cannot sync a folder into its own subdirectory** (or create recursive backup paths). Sounds obvious when you say it out loud… but in practice, it’s not always easy to spot.
+You simply **cannot sync a folder into it's own subdirectory** (or create recursive backup paths). Sounds obvious when you say it out loud… but in practice, it’s not always easy to spot.
 
 Lesson learned.
 
@@ -60,7 +60,7 @@ Fun detail: getting **European date and time format** working properly took way 
 
 But if you wonder how, this is how, together with [SearXNG](#searxng--my-new-favorite-toy) setup and a little help from [nginx](#nginx-proxy-manager-npm):
 
-```bash
+```yaml
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/info-widgets/
 
@@ -93,7 +93,7 @@ So I finally gave in and deployed **Nginx Proxy Manager**.
 
 👉 [https://nginxproxymanager.com/](https://nginxproxymanager.com/)
 
-The setup was… a mix of easy and tricky. Each service needed slightly different configuration, so there was quite a bit of trial and error. But in the end, everything came together nicely. Only downside was manualy adding new mDNS names to every container docker-compose.yaml file.
+The setup was… a mix of easy and tricky. Each service needed slightly different configuration, so there was quite a bit of trial and error. But in the end, everything came together nicely. Only downside was manually adding new mDNS names to every container docker-compose.yaml file.
 
 ![Nginx Proxy Manager](/assets/img/homelab/nginx1.png)
 
@@ -121,7 +121,7 @@ Even better — Firefox allows adding custom search engines, so I can use it dir
 
 ## What's Next?
 
-Things are starting to come together quite nicely. As for sotware side Im quite satisfied as of now, Im plannig on expanding my syncthing backups. Also Im closely watching the [NextCloud/Euro-Office](https://nextcloud.com/blog/press_releases/industry-initiative-launches-euro-office-as-true-sovereign-office-suite/) initiative and I will test when its ready and somewhat mature.
+Things are starting to come together quite nicely. As for software side I'm quite satisfied as of now, I'm planning on expanding my syncthing backups. Also I'm closely watching the [NextCloud/Euro-Office](https://nextcloud.com/blog/press_releases/industry-initiative-launches-euro-office-as-true-sovereign-office-suite/) initiative and I will test when it's ready and somewhat mature.
 
 Next steps will likely include:
 

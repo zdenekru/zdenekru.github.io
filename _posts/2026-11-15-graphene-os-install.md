@@ -2,7 +2,7 @@
 title: "Migrating to GrapheneOS: Installation from Arch Linux and Daily Reality"
 date: 2026-11-15 20:00:00 +0100
 categories: [Mobile, Privacy]
-tags: [GrapheneIS, Pixel, Android, ArchLinux, CashyOS, Security, Selfhosted]
+tags: [GrapheneOS, Pixel, Android, ArchLinux, CachyOS, Security, Selfhosted]
 image:
   path: /assets/img/grapheneos/logo.png
 ---

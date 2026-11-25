@@ -5,7 +5,7 @@ date: 2026-08-08 10:30:00 +0200
 categories: [linux, debugging]
 tags: [CachyOS, Linux, Intel ARC, Arc B580, Steam, VA-API, Resizable BAR, BIOS]
 image:
-  path: /assets/img/homelab/cashyosintelsteamheader.png
+  path: /assets/img/homelab/cachyosintelsteamheader.png
 ---
 
 Sometimes a software problem is not really a software problem.

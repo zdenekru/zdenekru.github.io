@@ -146,7 +146,7 @@ server.on("/status", handleStatus);
 
 Whenever the browser requests /status, the ESP32 calls handleStatus() and generates a JSON response:
 
-```json
+```cpp
 void handleStatus() 
   { String json = "{"; 
     json += "\"state\":\"" + state + "\","; 

@@ -1,6 +1,6 @@
 ---
 title: "ESP32 Weather Station - First PCB (Rev0)"
-date: 2025-05-27 18:00:00 +0200
+date: 2025-05-28 18:00:00 +0200
 categories: [projects]
 tags: [esp32, pcb, kicad, jlcpcb, electronics]
 layout: post

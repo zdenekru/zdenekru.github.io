@@ -31,7 +31,3 @@ I’m excited to continue improving the site with new features, better styling, 
 ---
 
 Thanks for reading! Feel free to check out the site and follow along as it evolves.
-
----
-
-*Posted on May 25, 2025*

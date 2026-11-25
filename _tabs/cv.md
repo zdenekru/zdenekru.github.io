@@ -94,6 +94,3 @@ order: 2
 - Monitored and resolved issues on Unix/Windows systems  
 - TSM backup management  
 - SAP, DB, HW, and network troubleshooting
-
-
-[Download PDF CV](https://yourgithub.io/files/cv.pdf)

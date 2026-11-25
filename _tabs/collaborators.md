@@ -6,8 +6,8 @@ icon: fas fa-users
 order: 3
 ---
 
-Here are some amazing people I'm collaborating with :
+People I collaborate with:
 
-- 🧠 **Alice** – Machine Learning collaborator
-- 🔧 **Bob** – Hardware engineer, helped with prototyping
-- 🌐 **Open Source** – Thanks to XYZ GitHub community
+- **Ing. Rostislav Huzlík, Ph.D.** – programming & electrical engineering · [VUT profile](https://www.vut.cz/lide/rostislav-huzlik-47486) · [LinkedIn](https://www.linkedin.com/in/rostislav-huzlik-5a358570/)
+- **Ing. Radomír Pruša, Ph.D.** – industrial standards · [VUT profile](https://www.vut.cz/lide/radomir-prusa-164376)
+- **Ing. Jan Macháček** – design & coding · [LinkedIn](https://www.linkedin.com/in/jan-machacek-164255108/)

@@ -2,8 +2,8 @@
 layout: post
 title: "Zdenduino - Final form of Dashboard - Part 6"
 date: 2026-05-31 12:00:00 +0200
-tags: [ESP32, GPIO, Wi-Fi, HTTP, API, VSC, PlatformIO, Electronics, DIY]
-categories: esp32 embedded web-interface
+tags: [esp32, gpio, wi-fi, http, api, vscode, platformio]
+categories: [projects]
 image:
   path: /assets/img/zdenduino/6zdenduino_webgui.png
 ---

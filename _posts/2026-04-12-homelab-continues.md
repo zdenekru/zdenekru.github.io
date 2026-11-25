@@ -2,7 +2,7 @@
 title: "Homelab Continues"
 date: 2026-04-12 20:00:00 +0200
 categories: [homelab]
-tags: [Homelab, Docker, Portainer, Nginx, SearXNG, Self-Hosting]
+tags: [homelab, docker, portainer, nginx, searxng, selfhosted]
 layout: post
 image:
   path: /assets/img/homelab/homepage1.png

@@ -2,7 +2,7 @@
 title: "Zdenduino - Wi-Fi Testing - Part 3"
 date: 2026-05-23 12:00:00 +0200
 categories: [projects]
-tags: [ESP32, Wi-Fi, Webserver, Arduino, Electronics, DIY]
+tags: [esp32, wi-fi, webserver, arduino]
 layout: post
 image:
   path: /assets/img/zdenduino/3zdenduino_breadboardblink.png

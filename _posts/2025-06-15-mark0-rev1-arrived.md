@@ -2,7 +2,7 @@
 title: "Mark0 Rev1 arrived"
 date: 2025-06-15 10:00:00 +0200
 categories: [projects]
-tags: [ESP32, IoT, Dashboard, ProjectLog, Soldering]
+tags: [esp32, iot, dashboard, projectlog, soldering]
 layout: post
 image:
   path: /assets/img/esp32-mark0/mark0rev1.png

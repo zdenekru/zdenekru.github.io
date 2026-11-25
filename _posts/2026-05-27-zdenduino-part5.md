@@ -2,7 +2,7 @@
 title: "Zdenduino - PIR Sensor, Deepsleep and Websocket - Part 5"
 date: 2026-05-27 12:00:00 +0200
 categories: [projects]
-tags: [ESP32, Sensors, PIR, GPIO, Wi-Fi, HTTP, API, Arduino, Electronics, DIY]
+tags: [esp32, sensors, pir, gpio, wi-fi, http, api, arduino]
 layout: post
 image:
   path: /assets/img/zdenduino/5zdenduino_PIRWeb.png

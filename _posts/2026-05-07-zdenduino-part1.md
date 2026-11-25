@@ -2,7 +2,7 @@
 title: "Zdenduino - My Own ESP32 Devboard - Part 1"
 date: 2026-05-07 10:00:00 +0200
 categories: [projects]
-tags: [ESP32, KiCad, PCB, JLCPCB, Electronics, DIY]
+tags: [esp32, kicad, pcb, jlcpcb]
 layout: post
 image:
   path: /assets/img/zdenduino/1zdenduino_render.png

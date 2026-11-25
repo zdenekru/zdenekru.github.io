@@ -2,7 +2,7 @@
 title: "Connect Game - Part 1"
 date: 2026-04-13 21:00:00 +0200
 categories: [projects]
-tags: [Arduino, Fallout, LARP, C, game]
+tags: [arduino, fallout, larp, c-language, game]
 layout: post
 image:
   path: /assets/img/connect-game/connectgametitle1.png

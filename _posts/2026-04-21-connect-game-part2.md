@@ -1,7 +1,7 @@
 ---
 title: "Connect Game - Part 2: Not All Power Sources Are Equal"
 date: 2026-04-21 16:00:00 +0200
-categories: [projects]
+categories: [projects, connect-game]
 tags: [arduino, fallout, larp, c-language, game]
 layout: post
 image:

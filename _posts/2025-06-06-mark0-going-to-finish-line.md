@@ -1,7 +1,7 @@
 ---
 title: "Going to a Finish Line with Mark0"
 date: 2025-06-06 21:00:00 +0200
-categories: [projects]
+categories: [projects, weather-station]
 tags: [esp32, flask, iot, dashboard, projectlog]
 layout: post
 ---

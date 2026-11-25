@@ -1,7 +1,7 @@
 ---
 title: "ESP32 Weather Station - PCBs Rev0 Arrived and, Well, It's No Bueno"
 date: 2025-05-30 18:00:00 +0200
-categories: [projects]
+categories: [projects, weather-station]
 tags: [esp32, pcb, jlcpcb, kicad, hardware, lessons-learned]
 layout: post
 image:

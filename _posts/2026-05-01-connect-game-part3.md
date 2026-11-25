@@ -1,7 +1,7 @@
 ---
 title: "Connect Game - Part 3: The Finish Line"
 date: 2026-05-01 16:00:00 +0200
-categories: [projects]
+categories: [projects, connect-game]
 tags: [arduino, fallout, larp, c-language, game, kicad]
 layout: post
 image:

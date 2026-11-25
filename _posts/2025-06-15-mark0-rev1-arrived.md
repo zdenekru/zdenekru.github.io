@@ -1,7 +1,7 @@
 ---
 title: "Mark0 Rev1 arrived"
 date: 2025-06-15 10:00:00 +0200
-categories: [projects]
+categories: [projects, weather-station]
 tags: [esp32, iot, dashboard, projectlog, soldering]
 layout: post
 image:

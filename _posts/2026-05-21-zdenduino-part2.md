@@ -1,7 +1,7 @@
 ---
 title: "Zdenduino - Arrival and Testing - Part 2"
 date: 2026-05-21 12:00:00 +0200
-categories: [projects]
+categories: [projects, zdenduino]
 tags: [esp32, kicad, pcb, jlcpcb]
 layout: post
 image:

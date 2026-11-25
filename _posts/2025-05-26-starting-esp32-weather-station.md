@@ -1,7 +1,7 @@
 ---
 title: "Starting ESP32 Weather Station Project"
 date: 2025-05-26 18:00:00 +0200
-categories: [projects]
+categories: [projects, weather-station]
 tags: [esp32, iot, weather, pcb]
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Homelab Beginnings"
 date: 2026-03-14 18:00:00 +0200
-categories: [homelab]
+categories: [homelab, server]
 tags: [homelab, debian, docker, grafana, syncthing, monitoring]
 layout: post
 image:

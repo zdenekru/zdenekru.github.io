@@ -1,7 +1,7 @@
 ---
 title: "Starting Mark 1 ESP32 Weather Station"
 date: 2025-05-31 18:00:00 +0200
-categories: [projects]
+categories: [projects, weather-station]
 tags: [esp32, weather-station, mark1, sensors, iot, hardware]
 layout: post
 ---

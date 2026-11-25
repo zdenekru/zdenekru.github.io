@@ -1,7 +1,7 @@
 ---
 title: "ESP32 Weather Station Mark0 – My Love/Hate Relationship with Breadboards"
 date: 2025-05-27 18:00:00 +0200
-categories: [projects]
+categories: [projects, weather-station]
 tags: [esp32, blynk, prototyping, arduino]
 layout: post
 ---

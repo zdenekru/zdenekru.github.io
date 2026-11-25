@@ -1,7 +1,7 @@
 ---
 title: "Zdenduino - Wireless and ADC Testing - Part 4"
 date: 2026-05-24 12:00:00 +0200
-categories: [projects]
+categories: [projects, zdenduino]
 tags: [esp32, wi-fi, bluetooth, ota, mqtt]
 layout: post
 image:

@@ -2,8 +2,8 @@
 layout: post
 title: "Debugging Steam and Intel Arc Graphics on CachyOS: A Resizable BAR Story"
 date: 2026-08-08 10:30:00 +0200
-categories: [linux, debugging]
-tags: [cachyos, linux, intel-arc, arc-b580, steam, va-api, resizable-bar, bios]
+categories: [tech-notes, linux]
+tags: [cachyos, linux, intel-arc, arc-b580, steam, va-api, resizable-bar, bios, debugging]
 image:
   path: /assets/img/homelab/cachyosintelsteamheader.png
 ---

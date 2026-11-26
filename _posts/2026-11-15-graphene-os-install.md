@@ -29,12 +29,12 @@ sudo udevadm trigger
 
 1. **Prepare the phone:** Go to *Settings > About phone* and tap *Build number* 7 times. In *Developer options*, enable **OEM unlocking** and **USB debugging**.
 
-![Enable OEM unlocking](/assets/img/grapheneos/oem-unlocking.png)
+![Enable OEM unlocking](/assets/img/grapheneos/oem-unlocking.webp)
 
 2. **Launch the installer:** Connect the phone using a reliable USB-C cable, open [grapheneos.org/install](https://grapheneos.org/install/) in a Chromium-based browser, and pair the device.
 3. **Unlock the bootloader:** Click *Unlock bootloader* and confirm the prompt directly on the phone screen using the volume and power buttons.
 
-![Fastboot unlocked state](/assets/img/grapheneos/fastboot-unlocked.png)
+![Fastboot unlocked state](/assets/img/grapheneos/fastboot-unlocked.webp)
 
 4. **Flash the OS:** Click *Download release* followed by *Flash release*. The installer handles all partitions automatically.
 
@@ -42,9 +42,9 @@ sudo udevadm trigger
 
 5. **Lock the bootloader:** Once flashing finishes, click *Lock bootloader* and confirm on the phone. This restores full Verified Boot integrity.
 
-![Lock bootloader prompt](/assets/img/grapheneos/lock-bootloader-confirm.png)
+![Lock bootloader prompt](/assets/img/grapheneos/lock-bootloader-confirm.webp)
 
-![First boot and GrapheneOS setup](/assets/img/grapheneos/welcome-screen.png)
+![First boot and GrapheneOS setup](/assets/img/grapheneos/welcome-screen.webp)
 
 > If anything goes wrong during the process, reverting to stock Android on a Pixel is straightforward. Boot into Fastboot mode, remove the non-stock GrapheneOS signing key via the web installer, and flash the factory image using Google's official *Android Flash Tool*.
 {: .prompt-info }

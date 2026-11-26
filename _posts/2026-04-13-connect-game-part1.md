@@ -5,7 +5,7 @@ categories: [projects, connect-game]
 tags: [arduino, fallout, larp, c-language, game]
 layout: post
 image:
-  path: /assets/img/connect-game/connectgametitle1.png
+  path: /assets/img/connect-game/connectgametitle1.webp
 ---
 
 I was approached by a friend of mine, who is one of the organizers of a Fallout-themed LARP event:
@@ -54,7 +54,7 @@ I messed up 😅
 Specifically, I **mirrored the GPIO extender (AW9523R)**.  
 Since there were no official KiCad libraries available, I created my own footprint — and got it wrong.
 
-![Connect Game Front](/assets/img/connect-game/connectgamefront1.png)
+![Connect Game Front](/assets/img/connect-game/connectgamefront1.webp)
 
 Stuff like this happens.
 
@@ -66,7 +66,7 @@ I ended up re-soldering the GPIO extender on the other side of the board, and af
 
 …but it was far from ideal.
 
-![Connect Game Back](/assets/img/connect-game/connectgameback1.png)
+![Connect Game Back](/assets/img/connect-game/connectgameback1.webp)
 
 ## The Real Problem
 

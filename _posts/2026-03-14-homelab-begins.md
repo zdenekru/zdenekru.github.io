@@ -5,7 +5,7 @@ categories: [homelab, server]
 tags: [homelab, debian, docker, grafana, syncthing, monitoring]
 layout: post
 image:
-  path: /assets/img/homelab/case.png
+  path: /assets/img/homelab/case.webp
 ---
 
 After a bit of a **long silence**, I'm finally back to writing here again.
@@ -22,7 +22,7 @@ The funny thing is that I originally bought this case **specifically because it 
 
 In the future, once I move more of my infrastructure into a **19" rack**, I plan to rebuild the whole system into a **2U Shuttle-style rack case** instead.
 
-![Homelab Case](/assets/img/homelab/case.png)
+![Homelab Case](/assets/img/homelab/case.webp)
 
 Another thing I really appreciate about the **Intel N100 platform** is the **passive cooling**. The motherboard comes with a large heatsink and **no fan at all**, which means the system is completely silent. In fact, I often forget it's even running.
 

@@ -5,7 +5,7 @@ date: 2026-08-08 10:30:00 +0200
 categories: [tech-notes, linux]
 tags: [cachyos, linux, intel-arc, arc-b580, steam, va-api, resizable-bar, bios, debugging]
 image:
-  path: /assets/img/homelab/cachyosintelsteamheader.png
+  path: /assets/img/homelab/cachyosintelsteamheader.webp
 ---
 
 Sometimes a software problem is not really a software problem.
@@ -264,7 +264,7 @@ Time to reboot.
 
 I went into the BIOS and enabled the two relevant options required for Resizable BAR support.
 
-![BIOS photo](/assets/img/homelab/bios.png)
+![BIOS photo](/assets/img/homelab/bios.webp)
 
 I enabled **Above 4G Decoding** and **Resizable BAR**, as shown in the photo. After saving the changes and rebooting into CachyOS, I checked the BAR configuration again:
 

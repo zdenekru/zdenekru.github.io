@@ -5,7 +5,7 @@ categories: [projects, zdenduino]
 tags: [esp32, wi-fi, webserver, arduino]
 layout: post
 image:
-  path: /assets/img/zdenduino/3zdenduino_breadboardblink.png
+  path: /assets/img/zdenduino/3zdenduino_breadboardblink.webp
 ---
 
 ## From Blinking Pins to a Real Dev Board

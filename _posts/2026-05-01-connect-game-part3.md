@@ -5,7 +5,7 @@ categories: [projects, connect-game]
 tags: [arduino, fallout, larp, c-language, game, kicad]
 layout: post
 image:
-  path: /assets/img/connect-game/connectgame2-1.png
+  path: /assets/img/connect-game/connectgame2-1.webp
 ---
 
 ## The Finish Line
@@ -22,22 +22,22 @@ The hardware is done, so I spent some time polishing the firmware. The device no
 ### Mode 1: The Quick Reflexes
 In this mode, the OLED display throws random pairs of GPIOs at the player (e.g., L1 <-> P4). You have a ticking clock and one wire. Connect them fast enough, and you move to the next pair.
 
-![Game 1 Start](/assets/img/connect-game/connectgame1-1.png)
+![Game 1 Start](/assets/img/connect-game/connectgame1-1.webp)
 
 Complete the sequence in time, and you get the reward:
 
-![Game 1 Success](/assets/img/connect-game/connectgame1-2.png)
+![Game 1 Success](/assets/img/connect-game/connectgame1-2.webp)
 
 ### Mode 2: The Logic Puzzle
 Personally, **I think I like Game 2 more.** It’s less about stress and more about "detective work." The player has multiple wires and must figure out the correct configuration from external clues (like a hidden manual or a terminal entry somewhere else in the room).
 
 The display doesn't tell you what to do anymore. It only shows your progress:
 
-![Game 2 Progress](/assets/img/connect-game/connectgame2-1.png)
+![Game 2 Progress](/assets/img/connect-game/connectgame2-1.webp)
 
 As you plug in the wires correctly, it checks them off. Once the full patch is complete...
 
-![Game 2 Secret](/assets/img/connect-game/connectgame2-2.png)
+![Game 2 Secret](/assets/img/connect-game/connectgame2-2.webp)
 
 👉 **BOOM. Secret revealed.**
 

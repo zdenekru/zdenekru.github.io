@@ -5,20 +5,20 @@ categories: [projects, zdenduino]
 tags: [esp32, kicad, pcb, jlcpcb]
 layout: post
 image:
-  path: /assets/img/zdenduino/2zdenduino_outside.png
+  path: /assets/img/zdenduino/2zdenduino_outside.webp
 ---
 
 ## The Boards Have Arrived!
 
 The PCBs finally arrived from JLCPCB and boy oh boy... they are beautiful.
 
-![Zdenduino PCB](/assets/img/zdenduino/2zdenduino_table.png)
+![Zdenduino PCB](/assets/img/zdenduino/2zdenduino_table.webp)
 
 I was a little worried that the tiny labels around the GPIO headers (J2 and J3) would end up unreadable, but they turned out perfectly fine. Honestly, seeing a board you designed yourself become a real physical object never gets old.
 
 The soldering quality is decent too. Some joints could probably use a bit more solder, heat, and time, but overall the assembly looks solid.
 
-![Zdenduino PCB](/assets/img/zdenduino/2zdenduino_back.png)
+![Zdenduino PCB](/assets/img/zdenduino/2zdenduino_back.webp)
 
 ## The First Power-Up Panic
 
@@ -148,7 +148,7 @@ And suddenly:
 
 **It worked.**
 
-![Multimeter GPIO Testing](/assets/img/zdenduino/2zdenduino_multimeter.png)
+![Multimeter GPIO Testing](/assets/img/zdenduino/2zdenduino_multimeter.webp)
 
 We all have our moments :D
 

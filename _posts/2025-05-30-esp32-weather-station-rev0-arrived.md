@@ -5,7 +5,7 @@ categories: [projects, weather-station]
 tags: [esp32, pcb, jlcpcb, kicad, hardware, lessons-learned]
 layout: post
 image:
-  path: /assets/img/esp32-mark0/rev0-populated.png
+  path: /assets/img/esp32-mark0/rev0-populated.webp
 ---
 
 Great news — the **Rev0 PCBs** for the ESP32 Weather Station project have arrived from [JLCPCB.com](https://jlcpcb.com), and the quality is absolutely stunning!
@@ -14,7 +14,7 @@ Great news — the **Rev0 PCBs** for the ESP32 Weather Station project have arri
 
 ---
 
-![Rev0 PCB Front](/assets/img/esp32-mark0/rev0-front.png)
+![Rev0 PCB Front](/assets/img/esp32-mark0/rev0-front.webp)
 
 Excited by how they turned out, I immediately began soldering. The **pre-soldered pad finish** made it a joy to work with — everything flowed smoothly, and the **precision pin sockets** went in without trouble.
 
@@ -22,7 +22,7 @@ But then... I noticed something.
 
 ---
 
-![Rev0 Populated](/assets/img/esp32-mark0/rev0-populated.png)
+![Rev0 Populated](/assets/img/esp32-mark0/rev0-populated.webp)
 
 Yeah. That’s a bit of a **collision** between the **NodeMCU board** and the **eInk display**. They physically *don’t* fit well together on the current layout. A rookie mistake — but that’s what Rev0 is for: learning.
 

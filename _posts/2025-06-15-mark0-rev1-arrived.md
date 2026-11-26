@@ -5,7 +5,7 @@ categories: [projects, weather-station]
 tags: [esp32, iot, dashboard, projectlog, soldering]
 layout: post
 image:
-  path: /assets/img/esp32-mark0/mark0rev1.png
+  path: /assets/img/esp32-mark0/mark0rev1.webp
 ---
 
 **Mark0 Rev1 Has Landed 🚀** The **Rev1** version of my Mark0 board has just arrived from JLCPCB — and once again, I'm genuinely surprised by the quality and speed. Seriously, **they're not paying me**, this is just me being impressed every single time.
@@ -22,7 +22,7 @@ This time I soldered:
 
 What I didn't solder: the **eInk display** — because it was a bit pricey and I want to reuse it in other builds. Instead, I went with **precision sockets** to keep it hot-swappable.
 
-![Mark0 Rev1 Photo Soldered](/assets/img/esp32-mark0/mark0rev1.png)
+![Mark0 Rev1 Photo Soldered](/assets/img/esp32-mark0/mark0rev1.webp)
 
 ### Improvements & Fixes
 

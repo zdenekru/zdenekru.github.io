@@ -5,7 +5,7 @@ categories: [projects, connect-game]
 tags: [arduino, fallout, larp, c-language, game]
 layout: post
 image:
-  path: /assets/img/connect-game/connectgame_1.1_working_design.png
+  path: /assets/img/connect-game/connectgame_1.1_working_design.webp
 ---
 
 ## Not All Power Sources Are Equal
@@ -59,7 +59,7 @@ I picked up:
 
 …and built a quick test circuit on a breadboard.
 
-![Breadboard Setup](/assets/img/connect-game/connectgame1.2_breadboard.png)
+![Breadboard Setup](/assets/img/connect-game/connectgame1.2_breadboard.webp)
 
 And just like that:
 

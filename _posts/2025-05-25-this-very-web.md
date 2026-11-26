@@ -20,7 +20,7 @@ I also experimented with adding pictures, like logos of the technologies I use, 
 
 ## Working with GitHub Manually
 
-Instead of forking an existing Jekyll theme repo, I set up the site manually from scratch. This approach took more time, but it helped me learn the ins and outs of how Jekyll works — from configuring `_config.yml` to organizing my layouts, pages, and assets.
+Instead of forking an existing site on GitHub, I downloaded the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) starter, built it locally and customised it from there: configuring _config.yml, setting up my own tabs, pages and assets. This took longer than a one-click fork, but it taught me how Jekyll, the theme gem and GitHub Pages fit together.
 
 ## Plans for the Future
 

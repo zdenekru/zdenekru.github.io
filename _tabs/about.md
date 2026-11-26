@@ -10,7 +10,7 @@ order: 8
 
 I'm an engineer and maker who enjoys combining electronics, programming, and automation. I focus on building real-world solutions — from smart home setups to industrial control systems — and I like tailoring designs to match specific needs, whether it's for a personal project or a business.
 
-I believe in learning by doing, so I try to avoid shortcuts: this website was built from the ground up using Jekyll and GitHub Pages, without forking a theme repo — just to better understand the process.
+I believe in learning by doing, so I try to avoid shortcuts: instead of forking a ready-made site, I set up this blog locally from the [Jekyll Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) starter, built it myself and customised it from there, just to better understand the process.
 
 ---
 
@@ -43,7 +43,7 @@ I work across different areas of electrical design:
 
 ## 🧱 About This Site
 
-This site is a place to document and share my work. I chose a minimalist design and built it manually with Jekyll to stay flexible and learn something along the way. It includes:
+This site is a place to document and share my work. I chose a minimalistic [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) design and built it manually with Jekyll to stay flexible and learn something along the way. It includes:
 
 - My [tech stack](/stack/)
 - My [projects](/projects/) page (both finished and in development)

@@ -1,0 +1,20 @@
+Content license
+
+Copyright (c) 2025-2026 Zdeněk Rusek
+
+Unless stated otherwise, the written content and media in this repository
+(everything under _posts/, _tabs/ and assets/img/) are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You may share and adapt this content for any purpose, including commercially,
+as long as you give appropriate credit, link to the license and indicate
+if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:           https://creativecommons.org/licenses/by/4.0/
+
+Source code, configuration and scripts in this repository are licensed
+separately under the MIT License (see LICENSE).
+
+Third-party material (for example product logos, screenshots of other
+software and the Chirpy theme) remains under its owners' terms.
